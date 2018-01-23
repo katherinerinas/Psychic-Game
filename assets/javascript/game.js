@@ -13,12 +13,15 @@
   var wins =0
   var losses=0
   var guessesLeft=15
+  
+  
+  
 
    
    document.onkeyup = function(){
    	var userguess = String.fromCharCode(event.keyCode).toLowerCase();
     guessesLeft--;
-
+        	
     console.log(userguess);
 
    
@@ -26,6 +29,8 @@
   
    	
    	console.log(computerGuess);
+
+   	
 
    	if(userguess===computerGuess){
    		wins ++;
@@ -50,10 +55,11 @@
    "<p><h3>Wins: " + wins +"</h3></p>"+
    "<p><h3>Losses: " + losses + "</h3></p>" +
    "<p><h3>Guesses Left: " + guessesLeft + "</h3></p>" +
-   "<p><h3>Your Guesses so far:" + userguess + "</h3></p>";
+   "<p><h3>Your Guesses so far:" + userguess +"</h3></p>";
 
    document.querySelector("#game").innerHTML = html;
+
+
+   }
    
 
-
-}
