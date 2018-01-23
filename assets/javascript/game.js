@@ -7,5 +7,8 @@
    //guesses so far-the letters that the user typed (will probably use the document.onKeyup.ToLowerCase)
 
    document.onkeyup = function(){
-   	alert("Working!")
-   }
+   	var userguess = String.fromCharCode(event.keyCode).toLowerCase();
+
+   	console.log(userguess);
+
+}
