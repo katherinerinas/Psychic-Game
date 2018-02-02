@@ -13,6 +13,7 @@
   var wins =0
   var losses=0
   var guessesLeft=15
+  var guessesSofar=0
   
   
   
@@ -23,26 +24,27 @@
     guessesLeft--;
         	
    
-
    
    	var computerGuess = options[Math.floor(Math.random()*options.length)];
   
    	
    	
 
-   	
-
    	if(userguess===computerGuess){
    		wins ++;
+      document.getElementById('xyz').play();
    		alert("You may be Psychic! wins: " + wins);
    	}
+    //SEE IF POSSIBLE TO ADD AUDIO CLIP OF AMANDA SEYFRIED FROM MEAN GIRLS "ITS LIKE I HAVE ESPN OR SOMETHING!"
 
     if (guessesLeft===-1){
     	wins =0;
     	losses =0;
     	guessesLeft=15;
-    	
+    	  document.getElementById('xyz').play();
     alert("You might be a phony..Try again!");
+
+    //SEE IF POSSIBLE TO ADD AUDIO CLIP OF BETTE MIDDLER FROM HOCUS POCUS "AHHHIVE LOST MY POWER!"
     	
     }
 
