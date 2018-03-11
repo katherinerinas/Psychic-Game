@@ -1,13 +1,18 @@
-body {color:white;
+body {
+	color: red;
+	text-shadow: 1px;
 	font-family: Papyrus;
 	background-image:url(../images/psychic.jpg);
-	outline-style:dashed;
-	outline-color:red;
+	background-repeat:repeat-y;
+	background-color:black;
+	float:right;
 
 }
 
-h1 {text-align:center;
-color:red;}
 
-
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px blue, 0 0 25px blue, 0 0 5px lightblue;
+    text-align:center;
 }
+
