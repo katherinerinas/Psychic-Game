@@ -3,9 +3,9 @@ body {
 	text-shadow: 1px;
 	font-family: Papyrus;
 	background-image:url(../images/psychic.jpg);
-	background-repeat:repeat-y;
-	background-color:black;
-	float:right;
+	background-repeat: repeat-y;
+	background-color: black;
+	float: right;
 	border-style: groove;
 	border-color: lightblue;
 

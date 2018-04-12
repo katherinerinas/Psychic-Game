@@ -9,9 +9,10 @@
   var guessesSofar=[]
   
   
-  document.onkeyup = function(){
-   	var userguess = String.fromCharCode(event.keyCode).toLowerCase();
-    guessesLeft--;
+   document.onkeyup = function(){
+    
+   var userguess = String.fromCharCode(event.keyCode).toLowerCase();
+   guessesLeft--;
    
         	
   
@@ -21,22 +22,22 @@
    		if(userguess===computerGuess){
    		wins ++;
    		alert("You may be Psychic! wins: " + wins);
-   	}
+      
+   	  }
    
 
-    if (guessesLeft===-1){
-    	wins =0;
-    	losses =0;
-    	guessesLeft=15;
-    alert("You might be a phony..Try again!");
+      if (guessesLeft===-1){
+    	 wins =0;
+    	 losses =0;
+    	 guessesLeft=15;
+       alert("You might be a phony..Try again!");
 
    
-    }
-
-   else{
-   	losses++;
+     }else{
    	
-   }
+    losses++;
+   	 
+    }
 
    
 
