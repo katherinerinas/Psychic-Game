@@ -4,8 +4,10 @@ Users will press any key on the keyboard to begin.  The computer will generate a
 
 Languages used:
   
-  HTML
-  CSS
+  HTML/
+  CSS/
   Javascript
+
+<a href ="https://katherinerinas.github.io/Psychic-Game/"></a>
 
 <img src="assets/images/psychicgame.png" alt="Psychic-Game">
