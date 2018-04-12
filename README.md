@@ -8,6 +8,6 @@ Languages used:
   CSS/
   Javascript
 
-<a href ="https://katherinerinas.github.io/Psychic-Game/"></a>
+<a href="https://katherinerinas.github.io/Psychic-Game/">GitHub Pages Link</a>
 
 <img src="assets/images/psychicgame.png" alt="Psychic-Game">
